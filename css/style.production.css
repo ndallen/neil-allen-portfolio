@@ -1,0 +1,329 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+}
+
+/* NAV */
+
+#logo {
+  padding: 10px;
+}
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border-bottom: 8px solid #2478aa;
+}
+.navbar li a:hover {
+  color: #f25a36;
+}
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav li a {
+  color: #2478aa;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* BIO  */
+.profile {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.profile-portrait {
+  border-radius: 50%;
+  float: left;
+  width: 300px;
+  margin-right: 40px;
+  border: 8px solid #2478aa;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.introText h1 {
+  color: #2478aa;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+}
+
+.introText #githubLink {
+  color: #2478aa;
+  text-decoration: none;
+}
+
+.introText #githubLink:hover {
+  color: #f25a36;
+  text-decoration: none;
+}
+
+/*ABOUT*/
+#profile-image {
+  text-align: center;
+  padding-top: 20px;
+}
+#profile-image img {
+  border-radius: 50%;
+  width: 300px;
+}
+.about h1 {
+  padding-top: 25px;
+  text-align: center;
+  color: #2478aa;
+}
+.about {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding-bottom: 20px;
+}
+
+.table {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  padding: 10px;
+}
+.table thead th {
+  font-weight: bold;
+  color: #2478aa;
+}
+
+/*CONTACT*/
+
+.callToAction {
+  width: 100%;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #f25a36;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px 0 20px 0;
+}
+.contactWrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.contactForm {
+  width: 600px;
+  background-color: #f2fdfa;
+  border: 3px solid #2478aa;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f2fdfa;
+}
+
+form label {
+  display: block;
+  padding-right: 10px;
+}
+form input {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.buttonColor {
+  background-color: #2478aa;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: white;
+  border: 2px solid #f25a36;
+  text-transform: uppercase;
+}
+.buttonColor:hover {
+  background-color: #f25a36;
+  border: 2px solid #2478aa;
+  text-transform: uppercase;
+}
+textarea {
+  margin-top: 10px;
+}
+.emailAddress {
+  padding-top: 10px;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.emailAddress a {
+  text-decoration: none;
+  color: #2478aa;
+  font-weight: bold;
+}
+.emailAddress a:hover {
+  color: #f25a36;
+}
+#phoneNumber {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*WORK*/
+
+.portfolioItems {
+  display: inline-block;
+  text-align: center;
+}
+.portfolioItems img {
+  border-radius: 10px;
+  border: 5px solid #2478aa;
+  margin: 3px;
+}
+
+/*GRID*/
+
+.portfolioIntro {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 50px 20px 50px;
+  line-height: 1.8rem;
+}
+.portfolioIntro h1 {
+  color: #2478aa;
+}
+
+.portfolioIntro a {
+  text-decoration: none;
+  color: #2478aa;
+  font-weight: bold;
+}
+
+.portfolioIntro a:hover {
+  color: #f25a36;
+}
+
+/* Grid fallback*/
+
+.grid__item {
+  display: inline-block;
+  width: 33%;
+  text-decoration: none;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 350px 350px;
+  grid-template-rows: 350px 350px;
+  grid-gap: 20px;
+  margin: 5px;
+}
+.grid__item {
+  background-color: #f2fdfa;
+  padding: 10px;
+  width: auto;
+  border: 3px solid #2478aa;
+  border-radius: 10px;
+}
+.grid h2 {
+  color: #2478aa;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.grid p {
+  line-height: 1.6rem;
+}
+.grid a {
+  text-decoration: none;
+  color: #2478aa;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.grid a:hover {
+  color: #f25a36;
+  font-weight: bold;
+}
+
+/*BUTTON*/
+.pdf {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.button {
+  background-color: #f25a36;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid #2478aa;
+  text-decoration: none;
+  color: black;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+}
+.button:hover {
+  background-color: #f2fdfa;
+  color: #2478aa;
+}
+
+/* FOOTER */
+
+.page-footer {
+  clear: both;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.page-footer ul {
+  list-style-type: none;
+}
+.page-footer li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.page-footer li a {
+  color: #2478aa;
+  font-size: 1.5rem;
+}
+
+.page-footer li a:hover {
+  color: #f25a36;
+}
+.copyright {
+  padding-left: 5px;
+  font-weight: bold;
+}
+hr {
+  border-bottom: 8px solid #2478aa;
+}
