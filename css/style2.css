@@ -188,6 +188,7 @@ textarea {
 .portfolioItems {
   display: inline-block;
   text-align: center;
+
 }
 .portfolioItems img {
   border-radius: 10px;
@@ -218,6 +219,9 @@ textarea {
   color: var(--secondary-color);
 }
 
+.grid__item .portfolio-image-1 {
+  background-color: red;
+}
 /* Grid fallback*/
 
 .grid__item {
@@ -237,7 +241,7 @@ textarea {
   margin: 5px;
 }
 .grid__item {
-  background-color: var(--background-color);
+  background-color: red;
   padding: 10px;
   width: auto;
   border: 3px solid var(--primary-color);
