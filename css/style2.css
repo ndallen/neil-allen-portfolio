@@ -96,7 +96,6 @@ nav li a {
  
 }
 
-}
 .banner-image img{
  width: 100%;
 
@@ -120,7 +119,7 @@ nav li a {
   color: var(--primary-color);
 }
 .about {
-  width: 70%;
+  width: 700px;
   margin: 0 auto;
   font-size: var(--font-size);
   line-height: 1.8rem;
