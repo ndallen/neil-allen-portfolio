@@ -3,7 +3,6 @@
   --secondary-color: #f25a36;
   --background-color: #f2fdfa;
   --font-size: 1.2rem;
- 
 }
 * {
   box-sizing: border-box;
@@ -85,6 +84,7 @@ nav li a {
 }
 
 /*ABOUT*/
+
 #profile-image {
   text-align: center;
   padding-top: 20px;
@@ -94,7 +94,7 @@ nav li a {
   width: 300px;
 }
 .about h1 {
-  padding-top: 25px;
+  padding-top: 10px;
   text-align: center;
   color: var(--primary-color);
 }
@@ -104,18 +104,37 @@ nav li a {
   font-size: var(--font-size);
   line-height: 1.8rem;
   padding-bottom: 20px;
+  border: 5px solid var(--primary-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  min-width: 500px;
+  max-width: 700px;
+  background-color: var(--background-color);
 }
 
 .table {
   font-size: var(--font-size);
+  min-width: 500px;
   line-height: 1.8rem;
-  padding: 10px;
+   width:50%;
+  border-spacing: 10px;
+  margin: 0 auto;
+  
 }
 .table thead th {
   font-weight: bold;
   color: var(--primary-color);
+  border: 5px solid var(--primary-color);
+  background-color: var(--background-color);
 }
 
+.table th, .table td {
+  padding: 15px;
+  border: 5px solid var(--primary-color);
+  background-color: var(--background-color);
+}
 /*CONTACT*/
 
 .callToAction {
@@ -189,7 +208,6 @@ textarea {
 .portfolioItems {
   display: inline-block;
   text-align: center;
-
 }
 .portfolioItems img {
   border-radius: 10px;
@@ -217,9 +235,8 @@ textarea {
 }
 
 .portfolioIntro a:hover {
-  color: var(--secondary-hover-color);
+  color: var(--secondary-color);
 }
-
 
 /* Grid fallback*/
 
@@ -271,7 +288,7 @@ textarea {
   color: var(--primary-color);
   font-size: 1.5rem;
 }
-.portfolio-fontawesome-icon:hover{
+.portfolio-fontawesome-icon:hover {
   color: var(--secondary-color);
 }
 .grid__item:hover {
