@@ -113,7 +113,10 @@ nav li a {
   max-width: 700px;
   background-color: var(--background-color);
 }
-
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
 .table {
   font-size: var(--font-size);
   min-width: 500px;
@@ -121,6 +124,7 @@ nav li a {
    width:50%;
   border-spacing: 10px;
   margin: 0 auto;
+  text-align: center;
   
 }
 .table thead th {
@@ -177,6 +181,7 @@ form input {
   color: white;
   border: 2px solid var(--secondary-color);
   text-transform: uppercase;
+ 
 }
 .buttonColor:hover {
   background-color: var(--secondary-color);
@@ -299,8 +304,8 @@ textarea {
 .pdf {
   position: relative;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .button {
   background-color: var(--secondary-color);
@@ -311,6 +316,7 @@ textarea {
   color: black;
   transition-duration: 0.3s;
   transition-property: background-color;
+
 }
 .button:hover {
   background-color: #f2fdfa;

@@ -20,16 +20,16 @@
 <body>
     <header>
         <nav class="navbar">
-            <a role="link" href="index.html">
+            <a  href="index.html">
                 <!-- ADD LOGO HERE-->
                 <img id="logo" src="img/logo.png" alt="logo showing Neil Allen Web Developer in Text">
             </a>
             <ul class="container" role="menubar">
-                <li role="presentation" class="right-nav"><a role="link" href="index.html">Home</a></li>
-                <li role="presentation" class="right-nav"><a role="link" href="about.html">About</a></li>
-                <!-- <li role="presentation" class="right-nav"><a role="link" href="work.html">Work</a></li> -->
-                <li role="presentation" class="right-nav"><a role="link" href="contact.html">Contact</a></li>
-                <li role="presentation" class="right-nav"><a role="link" href="grid.html">Work</a></li>
+                <li role="presentation" class="right-nav"><a href="index.html">Home</a></li>
+                <li role="presentation" class="right-nav"><a href="about.html">About</a></li>
+                <!-- <li role="presentation" class="right-nav"><a  href="work.html">Work</a></li> -->
+                <li role="presentation" class="right-nav"><a href="contact.html">Contact</a></li>
+                <li role="presentation" class="right-nav"><a href="grid.html">Work</a></li>
             </ul>
         </nav>
     </header>
@@ -40,9 +40,9 @@
         <div class="contactWrapper">
             <div class="contactForm animated fadeInUp ">
                 <form action="/login-form-action" method="post">
-                    <label for="name"> Name: <input type="text" name="name" required placeholder="Neil Allen"> </label><br>
-                    <label for="email">Email: <input type="email" name="email" required></label><br>
-                    <label for="message"> Message: <br><textarea name="comment" id="" cols="60" rows="10"></textarea> </label><br>
+                    <label for="name"> Name: <input id="name"  type="text" name="name" required placeholder="Neil Allen"> </label><br>
+                    <label for="email">Email: <input id="email" type="email" name="email" required></label><br>
+                    <label for="message"> Message: <br><textarea name="comment" id="message" cols="60" rows="10"></textarea> </label><br>
                     <button class="buttonColor" type="submit">Get In Touch</button>
                     <div class="emailAddress">
                         <p>If you prefer email or skype then you can contact me using <a href="mailto:neil@ecommerceevolution.co.uk">neil@ecommerceevolution.co.uk.</a> </p>
@@ -55,15 +55,17 @@
     </main>
     <footer class="page-footer">
         <div class="social-media animated fadeIn slow">
-            <li><a role="link" aria-label="github link" href="http://www.github.com"><i class="fab fa-github"></i></a></li>
-            <li><a role="link" aria-label="linkedin link" href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-            </li>
-            <li><a role="link" aria-label="twitter link" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-            <li><a role="link" aria-label="facebook link" href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li><a role="link" aria-label="instagram link" href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
-            </li>
-            <span class="copyright"> &copy; Neil Allen 2019 </span>
+            <ul> 
+                <li><a aria-label="github link" href="http://www.github.com"><i class="fab fa-github"></i></a></li>
+                <li><a aria-label="linkedin link" href="http://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li><a aria-label="twitter link" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a aria-label="facebook link" href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li><a aria-label="instagram link" href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="copyright"> &copy; Neil Allen 2019 </li>
+            </ul>
         </div>
     </footer>
     <hr>
