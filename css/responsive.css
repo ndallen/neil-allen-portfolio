@@ -54,6 +54,10 @@
 	.contactWrapper .contactForm {
 		width: 375px;
 		margin-left: 40px;
+		margin-bottom: 20px;
+	}
+	main img{
+		display: none;
 	}
 	#message {
 		width: 320px;
