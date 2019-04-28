@@ -4,16 +4,12 @@
   --background-color: #f2fdfa;
   --font-size: 1.2rem;
 }
-* {
-  box-sizing: border-box;
-}
 
-body {
-  box-sizing: border-box;
-}
 body {
   font-family: 'Raleway', sans-serif;
   height: 100vh;
+   box-sizing: border-box;
+  
 }
 
 /* NAV */
@@ -25,6 +21,10 @@ body {
   display: flex;
   width: 100%;
   border-bottom: 8px solid var(--primary-color);
+  background-color: var(--background-color);
+}
+.navbar a {
+  font-size: 1.5rem;
 }
 .navbar li a:hover {
   color: var(--secondary-color);
@@ -49,7 +49,9 @@ nav li a {
 }
 
 /* BIO  */
-.profile {
+
+
+/* .profile {
   margin: 0 auto;
   max-width: 1000px;
   margin-top: 50px;
@@ -57,16 +59,17 @@ nav li a {
   border-radius: 20px;
   font-size: var(--font-size);
   line-height: 1.8rem;
-}
-.profile-portrait {
-  border-radius: 50%;
-  float: left;
-  width: 300px;
-  margin-right: 40px;
-  border: 8px solid var(--primary-color);
-  -webkit-animation-duration: 1s;
+} */
+/* .profile-portrait { */
+  /* border-radius: 50%; */
+  /* float: center; */
+  /* width: 800px; */
+  /* margin-right: 40px; */
+  /* border: 8px solid var(--primary-color); */
+  /* -webkit-animation-duration: 1s;
   animation-duration: 1s;
-}
+} */
+
 .introText h1 {
   color: var(--primary-color);
   line-height: 2.8rem;
@@ -82,16 +85,31 @@ nav li a {
   color: var(--secondary-color);
   text-decoration: none;
 }
-
+.banner-image-wrapper {
+ width: 100%;
+ text-align: center;
+}
+.banner-image {
+  width: 1200px;
+  margin-top: 45px;
+  border-radius: 50px;
+}
+.banner-image img{
+ width: 100%;
+ 
+ 
+  
+ 
+}
 /*ABOUT*/
 
-#profile-image {
+/* #profile-image {
   text-align: center;
   padding-top: 20px;
-}
+} */
 #profile-image img {
   border-radius: 50%;
-  width: 300px;
+  width: 600px;
 }
 .about h1 {
   padding-top: 10px;
