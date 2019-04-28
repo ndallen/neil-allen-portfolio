@@ -3,6 +3,7 @@
   --secondary-color: #f25a36;
   --background-color: #f2fdfa;
   --font-size: 1.2rem;
+ 
 }
 * {
   box-sizing: border-box;
@@ -216,12 +217,10 @@ textarea {
 }
 
 .portfolioIntro a:hover {
-  color: var(--secondary-color);
+  color: var(--secondary-hover-color);
 }
 
-.grid__item .portfolio-image-1 {
- 
-}
+
 /* Grid fallback*/
 
 .grid__item {
@@ -275,10 +274,9 @@ textarea {
 .portfolio-fontawesome-icon:hover{
   color: var(--secondary-color);
 }
-/* .grid__item:hover {
-
-   transform: scale(1.1);
-} */
+.grid__item:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
 
 /*BUTTON*/
 .pdf {
