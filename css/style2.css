@@ -155,6 +155,7 @@ table {
   width: 600px;
   margin: 0 auto;
 }
+
 .contactForm {
   width: 600px;
   background-color: var(--background-color);
@@ -316,6 +317,7 @@ textarea {
   color: black;
   transition-duration: 0.3s;
   transition-property: background-color;
+
 
 }
 .button:hover {
